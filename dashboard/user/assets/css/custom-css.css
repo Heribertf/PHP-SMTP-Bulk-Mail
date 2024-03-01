@@ -1,0 +1,53 @@
+.custom-warning-card {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.custom-card {
+    max-width: 100%;
+    background-color: #ffc107;
+    /* Background color for the card */
+    border: 1px solid #ffc107;
+    /* Border color for the card */
+}
+
+.custom-card-header {
+    background-color: #ffc107;
+    /* Background color for the card header */
+    color: #333333;
+    /* Text color for the card header */
+    padding: 1rem;
+    font-weight: 600;
+}
+
+.custom-card-title {
+    color: #333333;
+    /* Text color for the card title */
+    padding: 1rem;
+    margin-bottom: 0;
+    font-weight: 500;
+
+}
+
+.custom-card-text {
+    color: #555555;
+    /* Text color for the card content */
+    padding: 1rem;
+}
+
+.custom-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    border: 1px solid #333333;
+    border-radius: 5px;
+    padding: 5px 0;
+}
+
+.custom-button a {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    /* border-radius: 5px; */
+}

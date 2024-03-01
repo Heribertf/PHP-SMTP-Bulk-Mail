@@ -1,0 +1,93 @@
+/* Fonts */
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Sidebar */
+.sidebar {
+  background-color: #1d97c1;
+  color: #fff;
+  width: 200px;
+  height: 100%;
+  position: fixed;
+  padding: 20px;
+}
+
+.logo img {
+  width: 100px;
+}
+
+.menu {
+  margin-top: 40px;
+}
+
+.menu-item {
+  display: flex;
+  align-items: center;
+  padding: 12px 15px;
+  border-radius: 5px;
+  margin: 10px 0;
+  cursor: pointer;
+}
+
+.menu-item img {
+  width: 20px;
+  margin-right: 10px;
+}
+
+.menu-item.active {
+  background: #fff;
+  color: #1d97c1;
+}
+
+/* Content */
+.content {
+  margin-left: 200px;
+  padding: 20px 50px;
+}
+
+.welcome h1 {
+  color: #1d97c1;
+}
+
+.statistics {
+  margin: 30px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.stat {
+  text-align: center;
+  padding: 10px 20px;
+  border-radius: 5px;
+  background: #f5f5f5;
+}
+
+/* Campaigns */
+
+.campaigns::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 35px;
+  height: 100%;
+  width: 2px;
+  background: #ddd;
+}
+
+.campaign {
+  position: relative;
+  padding-left: 50px;
+  padding-bottom: 30px;
+}
+
+.campaign::after {
+  content: '';
+  position: absolute;
+  left: 27px;
+  height: 15px;
+  width: 15px;
+  background: #1d97c1;
+  border-radius: 50%;
+  top: 5px;
+}
