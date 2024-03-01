@@ -20,15 +20,15 @@ function sendResetLink($user_email, $firstname, $fullname, $reset_link)
         $mail->isSMTP();
         $mail->Host = 'smtp.gmail.com';
         $mail->SMTPAuth = true;
-        $mail->Username = 'felixprogrammer76@gmail.com';
-        $mail->Password = 'yodxzwuqsjprfqde';
+        $mail->Username = 'xxxxxx@gmail.com';
+        $mail->Password = 'xxxxxx';
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;
         //$mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
         $mail->Port = 465;
 
-        $mail->setFrom('felixprogrammer76@gmail.com', 'Bulk Emails');
+        $mail->setFrom('xxxxxx@gmail.com', 'Bulk Emails');
         $mail->addAddress($user_email, $fullname);
-        $mail->addReplyTo('felixprogrammer76@gmail.com', 'Bulk Emails');
+        $mail->addReplyTo('xxxxxx@gmail.com', 'Bulk Emails');
 
 
         $mail->isHTML(true);

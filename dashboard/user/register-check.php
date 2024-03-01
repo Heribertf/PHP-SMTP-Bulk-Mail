@@ -21,15 +21,15 @@ function sendVerificationEmail($user_email, $otp, $firstname, $lastname)
         $mail->isSMTP();
         $mail->Host = 'smtp.gmail.com';
         $mail->SMTPAuth = true;
-        $mail->Username = 'felixprogrammer76@gmail.com';
-        $mail->Password = 'yodxzwuqsjprfqde';
+        $mail->Username = 'xxxxxx@gmail.com';
+        $mail->Password = 'xxxxxx';
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;
         //$mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS; // TLS encryption
         //$mail->Port = 587; // Port for TLS
         $mail->Port = 465; // Port for SMTPS
-        $mail->setFrom('felixprogrammer76@gmail.com', 'Bulk Emails');
+        $mail->setFrom('xxxxxx@gmail.com', 'Bulk Emails');
         $mail->addAddress($user_email, $firstname . ' ' . $lastname);
-        $mail->addReplyTo('felixprogrammer76@gmail.com', 'Bulk Emails');
+        $mail->addReplyTo('xxxxxx@gmail.com', 'Bulk Emails');
 
         $mail->isHTML(true);
         $mail->Subject = 'Email Verification';
